@@ -10,7 +10,8 @@ RUN apt-get update && apt-get install -y \
 	libmemcached-dev \
 	libpng12-dev \
 	libpq-dev \
-	libxml2-dev \
+	libxml2-dev 
+  libldap2-dev \
 	&& rm -rf /var/lib/apt/lists/*
 
 # https://doc.owncloud.org/server/8.1/admin_manual/installation/source_installation.html#prerequisites
